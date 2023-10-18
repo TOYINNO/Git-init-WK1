@@ -8,7 +8,7 @@ main{
 h1{
     text-transform: capitalize;
     text-align: center;
-    border-bottom-width: 2rem; /*2 times the size of the root element*/
+    border-bottom-width: 2rem solid red; /*2 times the size of the root element*/
     padding: auto 0; /*top and bottom should be thesame size as the root element(html)*/
 
 }
