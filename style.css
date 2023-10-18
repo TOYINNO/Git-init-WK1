@@ -1,30 +1,21 @@
-html{
-    width: 100%;
-    padding: auto 0;
-    border-bottom-width: 1em;
-}
 
 main{
     width: 75%;
-    text-align: center;
+   margin: auto;
 }
 
 
 h1{
     text-transform: capitalize;
     text-align: center;
-    border-bottom-width: 2em; /*2 times the size of the root element*/
+    border-bottom-width: 2rem; /*2 times the size of the root element*/
     padding: auto 0; /*top and bottom should be thesame size as the root element(html)*/
 
 }
 
-section{
-    font-size: 16px;
-}
-
 h2{
     text-transform: capitalize;
-    font-size: 24; /*1.5 the size of it's parent(section tag)*/
+    font-size: 1.5rem; /*1.5 the size of it's parent(section tag)*/
     color: #fff;    
     background-color: #808080;
 }
@@ -50,13 +41,9 @@ dd{
     -webkit-background-clip: text;
 }
 
-div{
-    font-size: 10px;
-}
-
-div>dl{
+p{
     height: 100px;
     overflow: auto;
-    font-size: 20px;
+    font-size: 2em;
     line-height: 1.5;
 }
