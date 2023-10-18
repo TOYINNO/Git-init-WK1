@@ -1,0 +1,62 @@
+html{
+    width: 100%;
+    padding: auto 0;
+    border-bottom-width: 1em;
+}
+
+main{
+    width: 75%;
+    text-align: center;
+}
+
+
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    border-bottom-width: 2em; /*2 times the size of the root element*/
+    padding: auto 0; /*top and bottom should be thesame size as the root element(html)*/
+
+}
+
+section{
+    font-size: 16px;
+}
+
+h2{
+    text-transform: capitalize;
+    font-size: 24; /*1.5 the size of it's parent(section tag)*/
+    color: #fff;    
+    background-color: #808080;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+ul{
+    background-image: linear-gradient(to right, red, yellow, blue);
+}
+
+ol{
+    background-image: radial-gradient( #eb2b09, yellow, green);
+}
+
+dd{
+    background-image: conic-gradient(blue 20%,red 20%, red 25%, lime 25%, lime 29%, khaki 29%, khaki 40%, green 40%, green 65%, skyblue 65%, skyblue 70%, #f1df17 70%, #f1df17 75%, blue 75%, blue 80%, purple 80%, purple 90%, green 90%);
+   color: transparent;
+    -webkit-background-clip: text;
+}
+
+div{
+    font-size: 10px;
+}
+
+div>dl{
+    height: 100px;
+    overflow: auto;
+    font-size: 20px;
+    line-height: 1.5;
+}
